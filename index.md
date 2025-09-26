@@ -65,14 +65,13 @@
 <body>
   <header>
     <h1>Bharat Shewale</h1>
-    <p>Data Scientist | MS in Data Science & AI | Python | SQL | ML | Visualization</p>
+    <p>Data Scientist | Machine Learning & Deep Learning Enthusiast | Transforming data into Insights</p>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
-      I am a results-driven Data Scientist with an MS in Data Science & AI and 1.5 years of leadership experience in logistics.
-      Skilled in Python, SQL, Machine Learning, Power BI, and Tableau. Passionate about using data to solve real-world problems.
+      Data Scientist with 3 years of experience in machine learning, data analysis, and process optimization across logistics, entrepreneurial, and academic projects. Skilled in Python, SQL, Power BI, and predictive modeling.
     </p>
   </section>
 
@@ -81,22 +80,27 @@
     <div class="project">
       <h3>Hotel Booking Data Analysis</h3>
       <p>Exploratory analysis of hotel booking trends to identify customer behaviors and improve business strategy.</p>
-      <a href="https://github.com/yourusername/hotel-booking">View Project</a>
+      <a href="https://github.com/bsshewale/Hotel_Booking_Data_Analysis">View Project</a>
     </div>
     <div class="project">
-      <h3>Sentiment Analysis of Tweets</h3>
+      <h3>COVID Tweets Sentiment Analysis</h3>
       <p>Built ML model to classify COVID-related tweets into positive, negative, and neutral sentiments.</p>
-      <a href="https://github.com/yourusername/tweet-sentiment">View Project</a>
+      <a href="https://github.com/bsshewale/Coronavirus-tweet-sentiment-analysis">View Project</a>
     </div>
     <div class="project">
-      <h3>Customer Segmentation</h3>
+      <h3>Onlineb Retail Customer Segmentation</h3>
       <p>Applied clustering techniques on retail data to segment customers for targeted marketing campaigns.</p>
-      <a href="https://github.com/yourusername/customer-segmentation">View Project</a>
+      <a href="https://github.com/bsshewale/Online-retail-customer-segmentation">View Project</a>
     </div>
     <div class="project">
-      <h3>Inventory Optimization</h3>
-      <p>Optimized warehouse storage to reduce holding costs and improve efficiency in logistics operations.</p>
-      <a href="https://github.com/yourusername/inventory-optimization">View Project</a>
+      <h3>Voyage Analytics Integrating MLOps in Travel Industry</h3>
+      <p>Analyzed 271K+ flight and hotel records and built predictive ML pipelines to optimize travel pricing and improve decision-making.</p>
+      <a href="https://github.com/bsshewale/Voyage-Analytics-Integrating-MLOps-in-Travel-Industry">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Automatic Movable Sprinkler System</h3>
+      <p>Developed an automatic movable sprinkler system to reduce irrigation effort, improve water efficiency, and lay the groundwork for future AI/ML-based optimization.</p>
+      <a href="https://drive.google.com/file/d/13hK6kNKuXBLJ30VxtsgYs6Z3jiMAq3fW/view?usp=sharing">View Project</a>
     </div>
   </section>
 
@@ -108,8 +112,8 @@
   <section>
     <h2>Contact</h2>
     <p>Email: <a href="mailto:bsshewale1630@gmail.com">bsshewale1630@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-    <p>GitHub: <a href="https://github.com/bharatshewale" target="_blank">github.com/bharatshewale</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/bharatshewale/" target="_blank">linkedin.com/in/LINKEDIN</a></p>
+    <p>GitHub: <a href="https://github.com/bsshewale" target="_blank">GITHUB</a></p>
   </section>
 
   <footer>
