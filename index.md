@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -112,8 +112,8 @@
   <section>
     <h2>Contact</h2>
     <p>Email: <a href="mailto:bsshewale1630@gmail.com">bsshewale1630@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/bharatshewale/" target="_blank">linkedin.com/in/LINKEDIN</a></p>
-    <p>GitHub: <a href="https://github.com/bsshewale" target="_blank">GITHUB</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/bharatshewale/" target="_blank">Welcome to my LinkedIn Profile</a></p>
+    <p>GitHub: <a href="https://github.com/bsshewale" target="_blank">Welcome to my GitHub Profile</a></p>
   </section>
 
   <footer>
