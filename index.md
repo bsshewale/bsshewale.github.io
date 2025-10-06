@@ -5,60 +5,209 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bharat Shewale | Data Scientist</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+        :root {
+      --primary: #2563eb;
+      --secondary: #1e3a8a;
+      --bg: #f8fafc;
+      --text: #1f2937;
+      --white: #fff;
+    }
+
+    * {
       margin: 0;
       padding: 0;
-      background: #f4f4f9;
-      color: #333;
+      box-sizing: border-box;
     }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
     header {
-      background: #2c3e50;
-      color: white;
-      padding: 40px 20px;
+      background: linear-gradient(135deg, var(--secondary), var(--primary));
+      color: var(--white);
       text-align: center;
+      padding: 80px 20px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2.5em;
+      font-size: 2.8rem;
+      margin-bottom: 8px;
     }
+
     header p {
-      font-size: 1.2em;
-      margin-top: 10px;
+      font-size: 1.2rem;
     }
+
+    nav {
+      background: var(--white);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
     section {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 20px;
     }
+
     h2 {
-      border-bottom: 2px solid #2c3e50;
-      padding-bottom: 5px;
-      color: #2c3e50;
+      text-align: center;
+      color: var(--secondary);
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+      position: relative;
     }
-    .project {
-      background: white;
-      margin: 15px 0;
-      padding: 20px;
+
+    h2::after {
+      content: "";
+      width: 60px;
+      height: 4px;
+      background: var(--primary);
+      display: block;
+      margin: 8px auto 0;
+      border-radius: 5px;
+    }
+
+    /* About Section */
+    .about p {
+      font-size: 1.05rem;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    /* Skills Section */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .skill {
+      background: var(--white);
+      border: 2px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 10px 20px;
+      font-weight: 600;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+
+    .skill:hover {
+      transform: scale(1.05);
+      border-color: var(--primary);
+    }
+
+    /* Projects Section */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .project-card {
+      background: var(--white);
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .project-card h3 {
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
       border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      font-size: 0.9rem;
+      transition: background 0.3s;
     }
-    .project h3 {
-      margin-top: 0;
+
+    .btn:hover {
+      background: var(--secondary);
     }
-    a {
-      color: #2980b9;
+
+    /* Resume Section */
+    .resume-btn {
+      display: block;
+      width: 220px;
+      text-align: center;
+      margin: 30px auto;
+      padding: 12px 0;
+      background: #10b981;
+      border-radius: 10px;
+      color: white;
+      font-weight: 600;
       text-decoration: none;
     }
-    a:hover {
+
+    .resume-btn:hover {
+      background: #059669;
+    }
+
+    /* Contact Section */
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      display: block;
+      margin: 6px 0;
+    }
+
+    .contact a:hover {
       text-decoration: underline;
     }
+
     footer {
-      background: #2c3e50;
+      background: var(--secondary);
       color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 40px;
+      padding: 25px;
+      margin-top: 60px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
     }
   </style>
 </head>
