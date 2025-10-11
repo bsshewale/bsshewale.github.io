@@ -189,51 +189,6 @@
       color: var(--secondary);
     }
 
-    /* Contact Form */
-    .contact-form {
-      max-width: 600px;
-      margin: 40px auto;
-      background: var(--white);
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    }
-
-    .contact-form input,
-    .contact-form textarea {
-      width: 100%;
-      padding: 12px 15px;
-      margin-bottom: 15px;
-      border: 1.5px solid #cbd5e1;
-      border-radius: 8px;
-      font-size: 1rem;
-      outline: none;
-      transition: 0.3s;
-    }
-
-    .contact-form input:focus,
-    .contact-form textarea:focus {
-      border-color: var(--primary);
-      box-shadow: 0 0 5px rgba(37,99,235,0.3);
-    }
-
-    .contact-form button {
-      width: 100%;
-      background: var(--primary);
-      color: white;
-      padding: 12px;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    .contact-form button:hover {
-      background: var(--secondary);
-    }
-
     footer {
       background: var(--secondary);
       color: white;
@@ -307,17 +262,6 @@
     <p>Email: <a href="mailto:bsshewale1630@gmail.com">bsshewale1630@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/bharatshewale/" target="_blank">Welcome to my LinkedIn Profile</a></p>
     <p>GitHub: <a href="https://github.com/bsshewale" target="_blank">Welcome to my GitHub Profile</a></p>
-
-    <!-- Contact Form -->
-    <div class="contact-form">
-      <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/your_form_id" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
   </section>
 
   <footer>
